@@ -7,7 +7,7 @@ const pages = paths.map((el) => `https://${host}/${repo}/${el}`);
 
 let currentPage = `${window.location.href}`;
 
-if (currentPage == `https://${host}/${repo}/`) currentPage = +"index.html";
+if (currentPage == `https://${host}/${repo}/`) currentPage += "index.html";
 
 const currentIndex = pages.indexOf(currentPage);
 
