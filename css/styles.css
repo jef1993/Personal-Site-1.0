@@ -266,6 +266,7 @@ body {
   color: #f8efd4;
   opacity: 0;
   transition: background-color 0.5s;
+  cursor: pointer;
 }
 
 .tag:hover {
